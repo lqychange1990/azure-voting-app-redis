@@ -1,5 +1,5 @@
 #!/bin/bash
-export resourceGroup=DamonRG$RANDOM
+export resourceGroup=JenkinsRG$RANDOM
 virtualMachine=myVM
 adminUser=azureuser
 pathToKubeConfig=~/.kube/config
